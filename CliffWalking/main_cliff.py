@@ -35,7 +35,7 @@ computer = 'personal' # 'cluster' | 'personal'
 preload = False # load pre-trained model prior to the training phase
 
 # risk measures used
-rm_list = ['mean', 'CVaR', 'CVaR-penalized'] # 'mean' | 'CVaR' | 'semi-dev' | 'CVaR-penalized' | 'mean-CVaR'
+rm_list = ['mean-CVaR']  #, 'CVaR', 'CVaR-penalized'] # 'mean' | 'CVaR' | 'semi-dev' | 'CVaR-penalized' | 'mean-CVaR'
 alpha_cvar = [-99, 0.2, 0.2] # threshold for the conditional value-at-risk
 kappa_semidev = [-99, -99, 0.2] # coefficient for the mean semideviation
 r_semidev = [-99, -99, -99] # exponent of the mean-semideviation
